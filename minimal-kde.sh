@@ -3,7 +3,7 @@
 # Exit on error
 set -e
 
-echo "==> Updating system..."
+echo "==> Updating system... run with sudo or doas permission"
 apk update && apk upgrade
 
 echo "==> Installing essential packages..."
